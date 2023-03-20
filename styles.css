@@ -187,7 +187,7 @@ p{
         rotate: 0deg;
         margin-left: 0;
     }
-    #title{
+    #title .container-fluid{
         text-align: center;
     }
     .section-heading{
