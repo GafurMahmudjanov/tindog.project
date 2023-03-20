@@ -1,0 +1,199 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", Impact; 
+}
+h2{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+    font-size: 0.9rem;
+}
+
+/* Containers */
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #EB455F;
+    color: aliceblue;
+}
+.white-section{
+    background-color: white;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: aliceblue;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 3rem;
+
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+
+}
+
+/* Download Buttons */
+
+#btn1{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 300px;
+    rotate: 25deg;
+    position: absolute;
+    margin-left: 90px;
+
+}
+/* Title Section */
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+
+/* Second part */
+
+#features{
+    position: relative;
+
+}
+
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 4.5%;
+
+}
+#img-ico{
+    color:#EB455F;
+    margin-bottom: 1rem;
+}
+
+#img-ico:hover{
+    color:#ff4c68
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing section  */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+.card-body{
+    height: 300px;
+}
+#pricing-btn{
+    padding-top: 40px;
+}
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+
+.footer-p{
+    color: #8f8f8f;
+    font-size: 0.8rem;
+}
+
+#icons{
+    color: black;
+    margin: 8px;
+    margin-bottom: 10px;
+}
+#icons:hover{
+    color:#EB455F;
+}
+
+
+@media (max-width: 991px){
+    .big-heading{
+        font-size: 2.5rem;
+        color: #fff;
+        line-height: 1.5;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    .title-image{
+        width: 250px;
+        position:static;
+        rotate: 0deg;
+        margin-left: 0;
+    }
+    #title{
+        text-align: center;
+    }
+    .section-heading{
+        font-size: 2.5rem;
+    }
+    .testimonial-text{
+        font-size: 2.5rem;
+    }
+}
